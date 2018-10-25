@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "7a440612-b508-468b-9cf3-19fe0142845e",
+  "alias": "HelloworldWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "helloworld" },
+    "description": { "default": "First webpart created using SharePoint Framework" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "helloworld",
+      "color":"Cyan"      
+    }
+  }]
+}

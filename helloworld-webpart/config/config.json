@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "helloworld-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloworld/HelloworldWebPart.js",
+          "manifest": "./src/webparts/helloworld/HelloworldWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "node_modules/jquery/dist/jquery.min.js",
+    "globalname": "jQuery"
+  },
+  "localizedResources": {
+    "HelloworldWebPartStrings": "lib/webparts/helloworld/loc/{locale}.js"
+  }
+}
